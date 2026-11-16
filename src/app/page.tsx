@@ -141,9 +141,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="requisitos" className="section requirements-section">
+        <div className="requirements-heading">
+          <div className="section-label">04 / ANTES DE TU CLASE</div>
+          <h2>Prepara tu<br /><em>movimiento.</em></h2>
+          <p>Unos pocos esenciales para que llegues cómoda, lista y con toda tu energía.</p>
+        </div>
+        <div className="requirements-grid">
+          <article className="requirement-card pole-requirements">
+            <div className="requirement-card-top"><span>01</span><span>POLE</span></div>
+            <h3>Trae contigo</h3>
+            <ul className="requirements-list">
+              <li><span>01</span>Toalla</li>
+              <li><span>02</span>Hidratación</li>
+              <li><span>03</span>Alcohol</li>
+            </ul>
+            <div className="outfit-note"><span>ROPA</span><p>Short y blusa sin mangas o top, como prefieras.</p></div>
+            <div className="important-note"><span>IMPORTANTE</span><p>Evita aplicarte crema en el cuerpo antes de tu clase.</p></div>
+          </article>
+          <article className="requirement-card twerk-requirements">
+            <div className="requirement-card-top"><span>02</span><span>TWERK</span></div>
+            <div className="knee-icon" aria-hidden="true">◒</div>
+            <h3>Rodilleras</h3>
+            <p className="twerk-copy">El esencial para disfrutar el movimiento con comodidad.</p>
+            <div className="twerk-footer">LLEVA LAS TUYAS <span>↗</span></div>
+          </article>
+        </div>
+      </section>
+
       <section id="planes" className="section plans-section">
         <div className="plans-heading">
-          <div><div className="section-label">04 / PLANES MENSUALES</div><h2>Elige cómo<br /><em>quieres volar.</em></h2></div>
+          <div><div className="section-label">05 / PLANES MENSUALES</div><h2>Elige cómo<br /><em>quieres volar.</em></h2></div>
           <p>Todos los planes tienen una validez de un mes. Si lo necesitas por salud o viaje, puedes congelar tu mensualidad avisándonos.</p>
         </div>
         <div className="plans-grid">
@@ -166,7 +194,7 @@ export default function Home() {
 
       <section id="comunidad" className="community-section">
         <div className="community-content">
-          <div className="section-label light">05 / COMUNIDAD FARFALA</div>
+          <div className="section-label light">06 / COMUNIDAD FARFALA</div>
           <h2>Las alas no se<br />abren <em>solas.</em></h2>
           <p>Este es tu tercer lugar: fuera de casa y del trabajo, con mujeres que llegan a moverse, a sostenerse y a celebrar todo lo que sí pueden.</p>
           <div className="quote"><span>“</span><p>Más que una clase, es un espacio donde me siento fuerte y acompañada.</p></div>
