@@ -199,7 +199,21 @@ export default function Home() {
           <p>Este es tu tercer lugar: fuera de casa y del trabajo, con mujeres que llegan a moverse, a sostenerse y a celebrar todo lo que sí pueden.</p>
           <div className="quote"><span>“</span><p>Más que una clase, es un espacio donde me siento fuerte y acompañada.</p></div>
         </div>
-        <div className="community-image"><img src="/images/community.jpeg" alt="Comunidad Farfala" /></div>
+        <div className="community-testimonials" aria-label="Testimonios de la comunidad">
+          <div className="testimonials-label">VOCES DE LA COMUNIDAD <span>✦</span></div>
+          <article className="testimonial-card featured-testimonial">
+            <p>“Nunca pensé que pudiera encontrar una comunidad tan fuerte a la que pudiera pertenecer.”</p>
+            <span>VIVIANA D.</span>
+          </article>
+          <article className="testimonial-card">
+            <p>“Las instructoras son increíbles y se adaptan a mi progreso.”</p>
+            <span>JOHANNA R.</span>
+          </article>
+          <article className="testimonial-card compact-testimonial">
+            <p>“No quiero dejar jamás el pole.”</p>
+            <span>EVELYN R.</span>
+          </article>
+        </div>
       </section>
 
       <section className="section faq-section">
