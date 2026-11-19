@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Farfala | Pole Sport Academy",
-  description: "Tu fuerza también puede tener alas.",
+  description: "Academia de pole sport, pole dance, baile y acondicionamiento físico en Tuluá. Clases presenciales y virtuales para empezar desde cero.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
